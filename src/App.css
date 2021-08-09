@@ -1,0 +1,10 @@
+.simpsons {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.simpsons :last-child {
+    margin-bottom: 0;
+}

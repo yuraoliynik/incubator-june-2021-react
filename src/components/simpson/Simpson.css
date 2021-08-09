@@ -1,0 +1,23 @@
+.simpson {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 800px;
+    border: 1px solid silver;
+    padding-left: 40px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+}
+
+.wrap :nth-child(2) {
+    text-align: justify;
+}
+
+img {
+    height: 400px;
+}
