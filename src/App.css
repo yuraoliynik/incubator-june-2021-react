@@ -1,0 +1,13 @@
+.users {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.users > * {
+    margin-bottom: 10px;
+}
+
+.users :last-child {
+    margin-bottom: 0;
+}

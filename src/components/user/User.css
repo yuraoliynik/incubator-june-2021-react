@@ -1,0 +1,9 @@
+.user {
+    border: 2px solid silver;
+    padding: 30px;
+    width: 500px;
+}
+
+.user > div > div {
+    padding-bottom: 5px;
+}
