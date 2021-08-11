@@ -1,0 +1,9 @@
+.user {
+    padding: 20px;
+    width: 500px;
+}
+
+.object-wrap {
+    border: 1px solid lightsteelblue;
+    padding: 0 10px 5px;
+}
