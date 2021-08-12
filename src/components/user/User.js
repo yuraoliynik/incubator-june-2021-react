@@ -1,7 +1,7 @@
 import './User.css';
 
 export function User({user}) {
-    // const {id} = user||[];
+    // const {id} = user||{};
     return(
         <div className={'user'}>
             <h3>USER:</h3>
