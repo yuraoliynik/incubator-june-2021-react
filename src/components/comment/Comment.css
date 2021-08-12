@@ -1,0 +1,12 @@
+.comment {
+    border: 1px solid mediumseagreen;
+    padding: 0 10px 2px;
+}
+
+.comment > h5 {
+    font-size: 12px;
+}
+
+.comment > p {
+    font-size: 12px;
+}

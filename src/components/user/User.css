@@ -1,0 +1,31 @@
+.user {
+    border: 3px solid mediumseagreen;
+    padding: 5px 20px;
+}
+
+.user-wrap {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.user-wrap > p {
+    display: block;
+}
+
+.object-wrap {
+    border: 1px solid mediumseagreen;
+    padding: 0 15px 5px;
+}
+
+.posts {
+    display: flex;
+    flex-flow: wrap;
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+    width: 100%;
+}
+
+.posts > div {
+    width: calc((100% - 10px)/3);
+}

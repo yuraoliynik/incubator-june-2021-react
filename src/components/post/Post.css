@@ -1,0 +1,24 @@
+.post {
+    border: 2px solid mediumseagreen;
+    padding: 5px 20px;
+}
+
+.post-wrap {
+    margin-bottom: 10px;
+}
+
+.post-wrap > h4{
+    font-size: 14px;
+}
+
+.post-wrap > p {
+    font-size: 14px;
+}
+
+.comments > div {
+    margin-bottom: 5px;
+}
+
+.comments :last-child {
+    margin-bottom: 0;
+}
