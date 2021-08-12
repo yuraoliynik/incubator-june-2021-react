@@ -5,18 +5,12 @@ import {Comment} from '../comment/Comment.js';
 
 export function Comments() {
     let [comments, setComments] = useState([]);
+    // let [comment, setComment] = useState({});
 
     useEffect(() => {
         getComments().then(value => setComments([...value]));
+        // getComment(366).then(value => setComment(value));
     }, []);
-
-    // let [comment, setComment] = useState({});
-    //
-    // useEffect(() => {
-    //     getComment(366).then(value => setComment(value))
-    // }, []);
-    //
-    // console.log(comment);
 
     return(
         <div className={'comments'}>
