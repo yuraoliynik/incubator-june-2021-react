@@ -1,7 +1,10 @@
+import {Users} from "./components/users/Users";
+import './App.css'
+
 export default function App() {
   return (
-    <div>
-      App
-    </div>
+      <div className={'app'}>
+          <Users/>
+      </div>
   );
 }

@@ -1,0 +1,9 @@
+.user {
+    border: 2px solid lightblue;
+    padding: 20px;
+}
+
+.object-wrap {
+    border: 1px solid lightblue;
+    padding: 0 15px 5px;
+}
