@@ -10,7 +10,6 @@ export function Users() {
     const [posts, setPosts] = useState([]);
 
     const chooseUser = (userItem) => {
-        console.log(userItem.id);
         setUser(userItem);
     }
 
