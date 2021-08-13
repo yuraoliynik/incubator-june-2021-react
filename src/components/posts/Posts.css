@@ -1,0 +1,18 @@
+.posts {
+    display: flex;
+    width: 100%;
+}
+
+.posts-wrap {
+    max-width: 40%;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+
+.posts-wrap > div {
+    margin-bottom: 5px;
+}
+
+.post-wrap {
+    width: 60%;
+}

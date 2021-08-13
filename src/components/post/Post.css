@@ -1,0 +1,10 @@
+.post {
+    border: 1px solid rosybrown;
+    padding: 10px;
+}
+
+.post > button {
+    background: rosybrown;
+    padding: 3px 20px;
+    font-size: 15px;
+}
