@@ -1,0 +1,53 @@
+.form-wrap {
+    padding: 0 200px;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    min-width: 806px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    border: 2px solid silver;
+    padding: 20px 0;
+    min-width: 806px;
+}
+
+.input-wrap :last-child {
+    margin-bottom: 0;
+    margin-right: 20px;
+}
+
+.input {
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.input > p {
+    min-width: 80px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.input > input {
+    min-width: 500px;
+    min-height: 30px;
+    font-size: 17px;
+}
+.button {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+}
+
+.button > input {
+    min-width: 150px;
+    min-height: 30px;
+    font-weight: bold;
+}

@@ -1,0 +1,7 @@
+.cars > h2 {
+    padding: 30px 0;
+}
+
+.cars > :first-of-type {
+    color: tomato;
+}

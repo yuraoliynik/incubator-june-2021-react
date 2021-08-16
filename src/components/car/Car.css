@@ -1,0 +1,16 @@
+.car {
+    display: flex;
+    font-size: 14px;
+    padding: 2px 10px;
+    border-bottom: 1px solid silver;
+    justify-content: center;
+}
+
+.car > h3 {
+    font-size: 14px;
+}
+
+.car > * {
+    margin-right: 15px;
+    min-width: 220px;
+}
