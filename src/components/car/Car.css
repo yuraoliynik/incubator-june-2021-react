@@ -1,0 +1,21 @@
+.car {
+    display: flex;
+    font-size: 14px;
+    padding: 2px 10px;
+    border-bottom: 1px solid silver;
+    justify-content: center;
+}
+
+.car > h3 {
+    font-size: 14px;
+}
+
+.car > h3, p {
+    margin-right: 15px;
+    min-width: 200px;
+}
+
+.car > button {
+    margin-right: 15px;
+    min-width: 100px;
+}
