@@ -1,0 +1,17 @@
+.users {
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding: 0 20px;
+}
+
+.users > div {
+    border: 2px solid lightsteelblue;
+    width: calc((100% - 40px)/3);
+}
+
+.users :last-child {
+    margin-bottom: 0;
+}

@@ -1,0 +1,17 @@
+.comments {
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding: 0 20px;
+}
+
+.comments > div {
+    border: 2px solid lightsteelblue;
+    width: calc((100% - 80px)/5)
+}
+
+.comments :last-child {
+    margin-bottom: 0;
+}

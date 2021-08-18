@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.links {
+    padding: 20px 200px;
+    background: lightsteelblue;
+}
+
+.links > div {
+    display: flex;
+    background: lightsteelblue;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid steelblue;
+}
+
+.links > div > div {
+    padding: 0 15px;
+    margin-right: 50px;
+    border: 1px solid steelblue;
+    border-radius: 5px;
+}
+
+.links :last-child {
+    margin-right: 0;
+}
+
+a {
+    color: steelblue;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: unset;
+}
