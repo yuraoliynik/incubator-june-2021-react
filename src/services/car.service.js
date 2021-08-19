@@ -1,4 +1,4 @@
-import {axios} from 'axios';
+import axios from 'axios';
 
 const config = {
     baseURL: 'http://192.168.1.253/api/v1/cars'
@@ -8,7 +8,7 @@ const config = {
 // IP в офисе 192.168.1.253
 
 function getCars() {
-    axios.create(config).get();
+    return axios.create(config).get();
 }
 
 export {getCars};

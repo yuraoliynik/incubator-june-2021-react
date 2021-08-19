@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.app, .links {
+    min-width: 850px;
+}
+
+.app > h2  {
+    color: lightslategrey;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.links {
+    display: flex;
+    /*flex-flow: column;*/
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background: lightslategrey;
+}
+
+.links > a {
+    margin-right: 50px;
+    color: white;
+    font-size: 22px;
+    text-decoration: unset;
+}
+

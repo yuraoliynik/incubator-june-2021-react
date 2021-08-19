@@ -1,0 +1,20 @@
+.car {
+    display: flex;
+    font-size: 14px;
+    padding: 2px 10px;
+    border-bottom: 1px solid silver;
+    justify-content: center;
+}
+
+.car-property {
+    display: flex;
+    color: lightslategrey;
+    width: 200px;
+}
+
+.car-property > p {
+    color: black;
+    font-weight: normal;
+    padding-left: 10px;
+}
+
