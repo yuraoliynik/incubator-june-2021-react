@@ -40,7 +40,7 @@ export default function App() {
                 </Route>
 
                 <Route path={'/users-page'}>
-                    <Users obj={{a: 1, b: 2}}/>
+                    <Users/>
                 </Route>
 
                 <Route path={'/posts-page'} component={Posts}/>
