@@ -1,0 +1,34 @@
+.post {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 20px;
+    border-bottom: 1px solid #8EE3DC;
+    width: 750px;
+    font-size: 17px;
+}
+
+.post > div {
+    display: flex;
+}
+
+.post > div > p:first-child {
+    margin-right: 10px;
+    width: 40px;
+    text-align: right;
+}
+
+.post > div > p:nth-child(2) {
+    width: 500px;
+}
+
+.post a {
+    color: #32ada5;
+}
+
+.post a:visited{
+    color: #8EE3DC;
+}
+
+.post a:hover {
+    color: #e38e9f;
+}

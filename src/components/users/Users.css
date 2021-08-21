@@ -1,0 +1,23 @@
+.users {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.users > div {
+    border: 2px solid #8EE3DC;
+    padding: 20px;
+    width: 544px;
+    height: 550px;
+}
+
+.users > div > h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.users > div:first-child {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}

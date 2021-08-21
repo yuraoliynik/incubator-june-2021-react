@@ -1,0 +1,9 @@
+.post-detail {
+    width: 500px;
+    font-size: 15px;
+}
+
+.post-object-wrap {
+    border: 1px solid #8EE3DC;
+    padding: 0 10px 5px;
+}

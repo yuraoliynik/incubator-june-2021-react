@@ -1,0 +1,29 @@
+.posts {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.posts > div {
+    border: 2px solid #8EE3DC;
+    padding: 20px;
+}
+
+.posts > div:first-child {
+    width: 794px;
+}
+
+.posts > div:nth-child(2) {
+    width: 544px;
+}
+
+.posts > div > h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.posts > div:first-child {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}

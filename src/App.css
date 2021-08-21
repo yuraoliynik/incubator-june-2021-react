@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background: #8EE3DC;
+    margin-bottom: 20px;
+}
+
+.links > div {
+    padding: 5px 300px;
+    border: 5px solid white;
+}
+
+.links > div > a {
+    font-size: 30px;
+    margin-right: 100px;
+}
+
+.links > div > a:last-child {
+    margin-right: 0;
+}
+
+.links a {
+    color: white;
+    text-decoration: unset;
+}
+
+.links a:visited{
+    color: white;
+}
+
+.links a:hover {
+    color: #95979C;
+}
