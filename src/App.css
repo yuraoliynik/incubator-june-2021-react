@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Calibri;
+}
+
+html {
+    width:100vw;
+    overflow-x:hidden;
+}
+
+.app {
+    padding: 0 100px 20px;
+    min-width: 1200px;
+}
+
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    background: mediumpurple;
+    padding: 20px 100px;
+    margin-bottom: 20px;
+}
+
+.app-links {
+    display: flex;
+    flex-flow: column;
+}
+
+.app-links > a {
+    color: white;
+    font-size: 15px;
+    padding: 1px 0;
+}
+
+.app-data {
+    border: 2px solid mediumpurple;
+}
+
+.app-data > h2 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+h2 {
+    font-size: 20px;
+    color: #574280;
+}
+
+input, select {
+    font-family: Calibri;
+    font-size: 15px;
+    color: #574280;
+}
+
+
+/*Forms style*/
+/* - carAddForm*/
+/* - carUpdateForm*/
+.form-wrap {
+    padding: 0 200px 50px;
+}
+
+form  {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    border: 2px solid mediumpurple;
+}
+
+.inputs {
+    margin-right: 30px;
+}
+
+.inputs > div {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.inputs :last-child {
+    margin-bottom: 0;
+}
+
+.inputs p {
+    text-align: right;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #574280;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.inputs input {
+    width: 300px;
+    padding-left: 10px;
+}
+
+.button {
+    display: flex;
+    align-items: flex-end;
+}
+
+.button > input {
+    padding: 3px 0;
+    width: 165px;
+    font-size: 16px;
+    background: rgba(147, 112, 219, 0.5);
+}

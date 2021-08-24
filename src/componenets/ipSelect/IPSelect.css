@@ -1,0 +1,19 @@
+.ip-select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    border: 1px solid white;
+}
+
+.ip-select > p {
+    color: white;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.ip-select > select {
+    padding-left: 10px;
+    width: 200px;
+}
+

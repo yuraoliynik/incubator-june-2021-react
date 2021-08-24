@@ -1,0 +1,15 @@
+.car-select {
+    padding: 0 200px;
+}
+
+.car-select > div {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    border: 2px solid mediumpurple;
+}
+
+.car-select select {
+    padding-left: 5px;
+    padding-right: 10px;
+}
