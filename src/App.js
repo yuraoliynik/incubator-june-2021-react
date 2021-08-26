@@ -1,7 +1,9 @@
+import Counter from "./components/counter/Counter";
+
 export default function App() {
-  return (
-    <div>
-      App
-    </div>
-  );
+    return (
+        <div>
+            <Counter/>
+        </div>
+    );
 }
