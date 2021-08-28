@@ -1,0 +1,19 @@
+.users {
+    display: flex;
+    flex-flow: wrap;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    width: 100%;
+    padding: 20px 50px;
+}
+
+.users > div {
+    width: calc((100% - 60px) / 4);
+    min-width: 230px;
+    border: 2px solid lightslategrey;
+    padding: 0 10px;
+}
+
+.users p {
+    font-size: 14px;
+}

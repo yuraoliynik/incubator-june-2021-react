@@ -1,0 +1,68 @@
+.form {
+    width: 100%;
+    min-width: 750px;
+    padding: 0 calc((100% - 750px) / 2);
+}
+
+.form-wrap {
+    border: 2px solid lightslategrey;
+    padding: 10px calc((100% - 650px) / 2);
+}
+
+.addUser {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid lightslategrey;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.addUser-inputs {
+    display: flex;
+    flex-flow: column;
+}
+
+.addUser-inputs > input {
+    width: 400px;
+    height: 24px;
+    margin-bottom: 10px;
+}
+
+.addUser-inputs > :last-child {
+    margin-bottom: 0;
+}
+
+.addUser-button {
+    display: flex;
+    align-items: flex-end;
+}
+
+.addUser-button > input {
+    width: 166px;
+    padding: 2px;
+}
+
+.clearUsers-button {
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid lightslategrey;
+    padding: 20px 26px;
+    margin-bottom: 20px;
+}
+
+.clearUsers-button > button {
+    width: 166px;
+    padding: 2px;
+}
+
+.getUsers-button {
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid lightslategrey;
+    padding: 20px 26px;
+}
+
+.getUsers-button > button {
+    width: 166px;
+    padding: 2px;
+}
