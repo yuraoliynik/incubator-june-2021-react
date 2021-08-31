@@ -1,0 +1,15 @@
+.form {
+    padding-top: 20px;
+    padding-left: 70px;
+}
+
+.form > div {
+    padding: 20px;
+    width: 380px;
+    border: 2px solid lightslategrey;
+}
+
+.form input {
+    width: 230px;
+    margin-right: 20px;
+}

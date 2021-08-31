@@ -1,0 +1,31 @@
+.todoLine {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    width: 500px;
+    border-bottom: 1px solid lightslategrey;
+}
+
+.todoLine p {
+    width: 230px;
+
+}
+
+.todoLine > div :first-child {
+    margin-right: 20px;
+}
+
+.buttons {
+    padding-bottom: 2px;
+}
+
+.buttons > button{
+    width: 100px;
+    margin-right: 20px;
+}
+
+.buttons > :last-child{
+    margin-right: 0;
+}
+
+
