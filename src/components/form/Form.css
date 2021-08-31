@@ -1,0 +1,42 @@
+.form {
+    padding: 20px 100px;
+}
+
+.form-wrap {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid tomato;
+}
+
+.form-wrap > input {
+    padding: 2px 0;
+    width: 400px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    flex-flow: wrap;
+    grid-column-gap: 50px;
+}
+
+.buttons-block {
+    display: flex;
+    flex-flow: column;
+    padding: 30px;
+    border: 1px solid tomato;
+}
+
+.buttons-block > button{
+    padding: 2px 0;
+    width: 270px;
+    margin-bottom: 10px;
+    background: rgba(255, 99, 71, 0.4);
+}
+
+.buttons-block > :last-child{
+    margin-bottom: 0;
+}

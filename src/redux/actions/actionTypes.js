@@ -1,0 +1,4 @@
+const INSERT_USERS = "INSERT_USERS";
+const ADD_USER = "ADD_USER";
+
+export {INSERT_USERS, ADD_USER};
